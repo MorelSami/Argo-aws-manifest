@@ -53,9 +53,9 @@ metadata:
       cert-manager.io/issuer: letsencrypt-nginx
 spec:
   tls:
-    - hosts:
-      - amazon.smk237.site
-      secretName: letsencrypt-nginx
+  - hosts:
+    - amazon.smk237.site
+    secretName: letsencrypt-nginx
   rules:
     - host: amazon.smk237.site
       http:
