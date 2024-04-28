@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: smorel237/amazon:4
+        image: smorel237/amazon:5
         ports:
         - containerPort: 3000
 
