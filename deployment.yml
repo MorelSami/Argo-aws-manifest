@@ -57,7 +57,7 @@ spec:
 #     - amazon.skm237.site
 #     secretName: letsencrypt-nginx
   rules:
-    - host: amazon.skm237.site
+    - host: amazon.smk237.site
       http:
         paths:
           - path: /
